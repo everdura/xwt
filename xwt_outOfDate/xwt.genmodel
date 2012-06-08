@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/xsd_to_ecore/src"
+    modelPluginID="xsd_to_ecore" modelName="Xwt" importerID="org.eclipse.xsd.ecore.importer"
+    complianceLevel="6.0" copyrightFields="false">
+  <foreignModel>file:/K:/Mes%20documents/Thales/UsiXML/Demonstrateur%20et%20Scenario_externe/Google%20swt_xwt/Nouveau%20dossier/xwt.xsd</foreignModel>
+  <genPackages prefix="Presentation" basePackage="org.eclipse.xwt" resource="XML"
+      disposableProviderFactory="true" loadInitialization="true" literalsInterface="false"
+      ecorePackage="xwt09.ecore#/">
+    <genDataTypes ecoreDataType="xwt09.ecore#//EchoCharType"/>
+    <genClasses image="false" ecoreClass="xwt09.ecore#//AbstractComboBoxCellEditor">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//AbstractComboBoxCellEditor/activationStyle"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="xwt09.ecore#//AbstractDataProvider">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EAttribute xwt09.ecore#//AbstractDataProvider/mixed"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//AbstractDataProvider/group"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//AbstractDataProvider/bindingContext"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//AbstractDataProvider/key"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="xwt09.ecore#//AbstractListViewer"/>
+    <genClasses image="false" ecoreClass="xwt09.ecore#//AbstractTableViewer">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//AbstractTableViewer/itemCount"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="xwt09.ecore#//AbstractTreeViewer">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//AbstractTreeViewer/group4"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//AbstractTreeViewer/expandedTreePaths"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//AbstractTreeViewer/expandedElements"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//AbstractTreeViewer/visibleExpandedElements"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//AbstractTreeViewer/autoExpandLevel"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//Accessible">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EAttribute xwt09.ecore#//Accessible/mixed"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//Binding">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EAttribute xwt09.ecore#//Binding/mixed"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Binding/group"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//Binding/source"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//Binding/value"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//Binding/control"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Binding/elementName"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Binding/path"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Binding/xPath"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//Browser">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Browser/group3"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//Browser/webBrowser"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Browser/browserType"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Browser/text"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Browser/url"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//Button">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Button/group1"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//Button/command"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Button/alignment"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Button/grayed"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Button/image"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Button/selection"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Button/text"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//Canvas">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Canvas/mixed1"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Canvas/group3"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//Canvas/iME"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//Canvas/caret"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//Caret">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Caret/group"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//Caret/parent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Caret/bounds"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Caret/font"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Caret/image"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Caret/location"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Caret/size"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Caret/visible"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//CCombo">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//CCombo/group3"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//CCombo/items"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//CCombo/editable"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//CCombo/listVisible"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//CCombo/selection"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//CCombo/text"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//CCombo/textLimit"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//CCombo/visibleItemCount"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//Cell">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EAttribute xwt09.ecore#//Cell/mixed"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Cell/group"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//Cell/parent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Cell/image"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Cell/text"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="xwt09.ecore#//CellEditor">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EAttribute xwt09.ecore#//CellEditor/mixed"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//CellEditor/group"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//CellEditor/validator"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//CellEditor/layoutData"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//CellEditor/value"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//CellEditor/control"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//CellEditor/errorMessage"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//CellEditor/style"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//CheckboxCellEditor"/>
+    <genClasses ecoreClass="xwt09.ecore#//CheckboxTableViewer">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//CheckboxTableViewer/group5"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//CheckboxTableViewer/grayedElements"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//CheckboxTableViewer/checkStateProvider"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//CheckboxTableViewer/checkedElements"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//CheckboxTableViewer/allChecked"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//CheckboxTableViewer/allGrayed"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//CheckboxTreeViewer">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//CheckboxTreeViewer/group6"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//CheckboxTreeViewer/grayedElements"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//CheckboxTreeViewer/checkStateProvider"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//CheckboxTreeViewer/checkedElements"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//CheckboxTreeViewer/allChecked"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//CLabel">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//CLabel/alignment"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//CLabel/image"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//CLabel/text"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//Class">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EAttribute xwt09.ecore#//Class/mixed"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="xwt09.ecore#//Collection">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EAttribute xwt09.ecore#//Collection/mixed"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//ColorCellEditor"/>
+    <genClasses image="false" ecoreClass="xwt09.ecore#//ColumnViewer">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//ColumnViewer/group3"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//ColumnViewer/columnViewerEditor"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//ColumnViewer/cellModifier"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//ColumnViewer/cellEditors"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//ColumnViewer/columnProperties"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="xwt09.ecore#//ColumnViewerEditor">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EAttribute xwt09.ecore#//ColumnViewerEditor/mixed"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//Combo">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Combo/group3"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Combo/items"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Combo/listVisible"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Combo/orientation"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Combo/selection"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Combo/text"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Combo/textLimit"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Combo/visibleItemCount"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//ComboBoxCellEditor"/>
+    <genClasses ecoreClass="xwt09.ecore#//ComboBoxViewerCellEditor">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//ComboBoxViewerCellEditor/group1"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//ComboBoxViewerCellEditor/input"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//ComboBoxViewerCellEditor/contenProvider"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//ComboBoxViewerCellEditor/labelProvider"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//ComboBoxViewerCellEditor/viewer"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//ComboViewer"/>
+    <genClasses ecoreClass="xwt09.ecore#//Composite">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Composite/group2"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//Composite/tabList"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//Composite/children"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//Composite/layout"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Composite/backgroundMode"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Composite/layoutDeferred"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="xwt09.ecore#//ContentViewer">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//ContentViewer/group1"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//ContentViewer/contentProvider"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//ContentViewer/labelProvider"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="xwt09.ecore#//Control">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Control/group"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//Control/menu"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//Control/cursor"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//Control/layoutData"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//Control/accessible"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Control/background"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Control/backgroundImage"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Control/bounds"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Control/capture"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Control/dragDetect"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Control/enabled"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Control/font"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Control/foreground"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Control/handle"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Control/location"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Control/redraw"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Control/size"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Control/toolTipText"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Control/visible"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//ControlEditor">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EAttribute xwt09.ecore#//ControlEditor/mixed"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//ControlEditor/group"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//ControlEditor/editor"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//ControlEditor/grabHorizontal"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//ControlEditor/grabVertical"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//ControlEditor/horizontalAlignment"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//ControlEditor/minimumHeight"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//ControlEditor/minimumWidth"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//ControlEditor/verticalAlignment"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//CoolBar">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//CoolBar/group3"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//CoolBar/itemOrder"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//CoolBar/wrapIndices"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//CoolBar/items"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//CoolBar/itemSizes"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//CoolBar/locked"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//CoolItem">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//CoolItem/group"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//CoolItem/parent"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//CoolItem/control"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//CoolItem/bounds"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//CoolItem/minimumSize"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//CoolItem/preferredSize"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//CoolItem/size"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//CTabFolder">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//CTabFolder/group3"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//CTabFolder/borderInsideRGB"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//CTabFolder/items"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//CTabFolder/topRight"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//CTabFolder/borderOutsideRGB"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//CTabFolder/selection"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//CTabFolder/borderMiddleRGB"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//CTabFolder/borderVisible"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//CTabFolder/marginHeight"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//CTabFolder/marginWidth"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//CTabFolder/maximized"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//CTabFolder/maximizeVisible"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//CTabFolder/mINTABWIDTH"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//CTabFolder/minimized"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//CTabFolder/minimizeVisible"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//CTabFolder/minimumCharacters"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//CTabFolder/mRUVisible"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//CTabFolder/selectionBackground"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//CTabFolder/selectionForeground"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//CTabFolder/simple"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//CTabFolder/single"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//CTabFolder/tabHeight"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//CTabFolder/tabPosition"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//CTabFolder/unselectedCloseVisible"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//CTabFolder/unselectedImageVisible"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//CTabItem">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//CTabItem/group"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//CTabItem/parent"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//CTabItem/control"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//CTabItem/bounds"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//CTabItem/disabledImage"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//CTabItem/font"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//CTabItem/showClose"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//CTabItem/toolTipText"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//Cursor"/>
+    <genClasses ecoreClass="xwt09.ecore#//DateTime">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//DateTime/day"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//DateTime/hours"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//DateTime/minutes"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//DateTime/month"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//DateTime/seconds"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//DateTime/year"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//Decorations">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Decorations/group4"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Decorations/images"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//Decorations/defaultButton"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//Decorations/menuBar"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Decorations/image"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Decorations/maximized"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Decorations/minimized"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Decorations/text"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//DefaultCellModifier">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EAttribute xwt09.ecore#//DefaultCellModifier/mixed"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//DefaultLabelProvider">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EAttribute xwt09.ecore#//DefaultLabelProvider/mixed"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="xwt09.ecore#//Dialog">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Dialog/group1"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//Dialog/buttonBar"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//Dialog/blockedHandler"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="xwt09.ecore#//DialogCellEditor"/>
+    <genClasses image="false" ecoreClass="xwt09.ecore#//DialogTray">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EAttribute xwt09.ecore#//DialogTray/mixed"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="xwt09.ecore#//Document">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EAttribute xwt09.ecore#//Document/mixed"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//DocumentObject"/>
+    <genClasses ecoreClass="xwt09.ecore#//DocumentRoot">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//DocumentRoot/mixed"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//DocumentRoot/xMLNSPrefixMap"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//DocumentRoot/xSISchemaLocation"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference xwt09.ecore#//DocumentRoot/composite"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference xwt09.ecore#//DocumentRoot/dialog"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//Element"/>
+    <genClasses ecoreClass="xwt09.ecore#//ExpandBar">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//ExpandBar/group3"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//ExpandBar/items"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//ExpandBar/spacing"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//ExpandItem">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//ExpandItem/group"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//ExpandItem/parent"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//ExpandItem/control"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//ExpandItem/expanded"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//ExpandItem/height"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//FillLayout">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//FillLayout/marginHeight"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//FillLayout/marginWidth"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//FillLayout/spacing"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//FillLayout/type"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//FormAttachment">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EAttribute xwt09.ecore#//FormAttachment/mixed"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//FormAttachment/group"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//FormAttachment/control"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//FormAttachment/alignment"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//FormAttachment/denominator"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//FormAttachment/numerator"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//FormAttachment/offset"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//FormData">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EAttribute xwt09.ecore#//FormData/mixed"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//FormData/group"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//FormData/bottom"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//FormData/right"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//FormData/left"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//FormData/top"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//FormData/height"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//FormData/width"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//FormLayout">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//FormLayout/marginBottom"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//FormLayout/marginHeight"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//FormLayout/marginLeft"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//FormLayout/marginRight"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//FormLayout/marginTop"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//FormLayout/marginWidth"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//FormLayout/spacing"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//GridData">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EAttribute xwt09.ecore#//GridData/mixed"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//GridData/exclude"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//GridData/grabExcessHorizontalSpace"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//GridData/grabExcessVerticalSpace"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//GridData/heightHint"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//GridData/horizontalAlignment"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//GridData/horizontalIndent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//GridData/horizontalSpan"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//GridData/minimumHeight"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//GridData/minimumWidth"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//GridData/verticalAlignment"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//GridData/verticalIndent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//GridData/verticalSpan"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//GridData/widthHint"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//GridLayout">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//GridLayout/horizontalSpacing"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//GridLayout/makeColumnsEqualWidth"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//GridLayout/marginBottom"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//GridLayout/marginHeight"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//GridLayout/marginLeft"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//GridLayout/marginRight"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//GridLayout/marginTop"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//GridLayout/marginWidth"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//GridLayout/numColumns"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//GridLayout/verticalSpacing"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//Group">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Group/text"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="xwt09.ecore#//IBaseLabelProvider">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EAttribute xwt09.ecore#//IBaseLabelProvider/mixed"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="xwt09.ecore#//IBindingContext">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EAttribute xwt09.ecore#//IBindingContext/mixed"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="xwt09.ecore#//ICellEditorValidator">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EAttribute xwt09.ecore#//ICellEditorValidator/mixed"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="xwt09.ecore#//ICellModifier">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EAttribute xwt09.ecore#//ICellModifier/mixed"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="xwt09.ecore#//ICheckStateProvider">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EAttribute xwt09.ecore#//ICheckStateProvider/mixed"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="xwt09.ecore#//ICommand">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EAttribute xwt09.ecore#//ICommand/mixed"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="xwt09.ecore#//IContentProvider">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EAttribute xwt09.ecore#//IContentProvider/mixed"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="xwt09.ecore#//IDialogBlockedHandler">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EAttribute xwt09.ecore#//IDialogBlockedHandler/mixed"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="xwt09.ecore#//IElementComparer">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EAttribute xwt09.ecore#//IElementComparer/mixed"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//IME">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//IME/group"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//IME/ranges"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//IME/styles"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//IME/compositionOffset"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//IME/text"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="xwt09.ecore#//ISelection">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EAttribute xwt09.ecore#//ISelection/mixed"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="xwt09.ecore#//IStructuredContentProvider">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EAttribute xwt09.ecore#//IStructuredContentProvider/mixed"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="xwt09.ecore#//Item">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Item/image"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Item/text"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//Label">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Label/alignment"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Label/image"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Label/text"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="xwt09.ecore#//Layout">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EAttribute xwt09.ecore#//Layout/mixed"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//LayoutData">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EAttribute xwt09.ecore#//LayoutData/mixed"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//Link">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Link/text"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//List">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//List/group2"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//List/items"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//List/selection"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//List/selectionIndices"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//List/topIndex"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="xwt09.ecore#//Listener">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EAttribute xwt09.ecore#//Listener/mixed"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//ListViewer">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//ListViewer/group3"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//ListViewer/list"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//Menu">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Menu/group"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//Menu/defaultItem"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//Menu/parentItem"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//Menu/items"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//Menu/parentMenu"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//Menu/parent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Menu/enabled"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Menu/handle"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Menu/visible"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//MenuItem">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//MenuItem/group"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//MenuItem/parent"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//MenuItem/command"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//MenuItem/menu"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//MenuItem/accelerator"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//MenuItem/enabled"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//MenuItem/selection"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//MessageBox">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//MessageBox/message"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//ObjectDataProvider">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//ObjectDataProvider/group1"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//ObjectDataProvider/objectType"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//ObjectDataProvider/objectInstance"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//ObjectDataProvider/methodParameters"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//ObjectDataProvider/methodName"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//Observable">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EAttribute xwt09.ecore#//Observable/mixed"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//ProgressBar">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//ProgressBar/maximum"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//ProgressBar/minimum"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//ProgressBar/selection"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//ProgressBar/state"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="xwt09.ecore#//Resource">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EAttribute xwt09.ecore#//Resource/mixed"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//RGB">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EAttribute xwt09.ecore#//RGB/mixed"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//RowData">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EAttribute xwt09.ecore#//RowData/mixed"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//RowData/exclude"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//RowData/height"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//RowData/width"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//RowLayout">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//RowLayout/center"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//RowLayout/fill"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//RowLayout/justify"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//RowLayout/marginBottom"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//RowLayout/marginHeight"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//RowLayout/marginLeft"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//RowLayout/marginRight"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//RowLayout/marginTop"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//RowLayout/marginWidth"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//RowLayout/pack"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//RowLayout/spacing"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//RowLayout/type"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//RowLayout/wrap"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//Sash"/>
+    <genClasses ecoreClass="xwt09.ecore#//SashForm">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//SashForm/group3"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//SashForm/maximizedControl"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//SashForm/weights"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//SashForm/orientation"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//SashForm/sASHWIDTH"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//SashForm/sashWidth1"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//Scale">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Scale/increment"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Scale/maximum"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Scale/minimum"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Scale/pageIncrement"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Scale/selection"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="xwt09.ecore#//Scrollable">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Scrollable/group1"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//Scrollable/horizontalBar"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//Scrollable/verticalBar"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Scrollable/clientArea"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//ScrollBar">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//ScrollBar/group"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//ScrollBar/parent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//ScrollBar/enabled"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//ScrollBar/increment"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//ScrollBar/maximum"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//ScrollBar/minimum"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//ScrollBar/pageIncrement"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//ScrollBar/selection"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//ScrollBar/size"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//ScrollBar/thumb"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//ScrollBar/visible"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//Shell">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Shell/group5"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//Shell/shells"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Shell/alpha"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Shell/fullScreen"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Shell/imeInputMode"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Shell/minimumSize"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//Slider">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Slider/increment"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Slider/maximum"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Slider/minimum"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Slider/pageIncrement"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Slider/selection"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Slider/thumb"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//Spinner">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Spinner/digits"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Spinner/increment"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Spinner/maximum"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Spinner/minimum"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Spinner/pageIncrement"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Spinner/selection"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Spinner/text"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Spinner/textLimit"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//StackLayout">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//StackLayout/group"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//StackLayout/topControl"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//StackLayout/marginHeight"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//StackLayout/marginWidth"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="xwt09.ecore#//StructuredViewer">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//StructuredViewer/group2"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//StructuredViewer/comparator"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//StructuredViewer/comparer"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//StructuredViewer/filters"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//StructuredViewer/sorter"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//StructuredViewer/useHashlookup"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//StyledText">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//StyledText/group4"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//StyledText/ranges"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//StyledText/styleRanges"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//StyledText/styleRange"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//StyledText/content"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//StyledText/selectionRanges"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//StyledText/alignment"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//StyledText/bidiColoring"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//StyledText/blockSelection"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//StyledText/caretOffset"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//StyledText/doubleClickEnabled"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//StyledText/editable"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//StyledText/horizontalIndex"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//StyledText/horizontalPixel"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//StyledText/indent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//StyledText/justify"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//StyledText/lineDelimiter"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//StyledText/lineSpacing"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//StyledText/orientation"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//StyledText/selection"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//StyledText/selectionBackground"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//StyledText/selectionForeground"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//StyledText/selectionText"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//StyledText/tabs"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//StyledText/text"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//StyledText/textLimit"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//StyledText/topIndex"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//StyledText/topPixel"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//StyledText/wordWrap"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="xwt09.ecore#//StyledTextContent">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EAttribute xwt09.ecore#//StyledTextContent/mixed"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//StyleRange"/>
+    <genClasses ecoreClass="xwt09.ecore#//TabFolder">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//TabFolder/group3"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//TabFolder/items"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//TabFolder/selection"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//TabItem">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//TabItem/group"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//TabItem/parent"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//TabItem/control"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//TabItem/bounds"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//TabItem/toolTipText"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//Table">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Table/group3"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//Table/sortColumn"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//Table/columns"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Table/columnOrder"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//Table/items"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//Table/selection"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Table/selectionIndices"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Table/headerVisible"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Table/itemCount"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Table/linesVisible"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Table/sortDirection"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Table/topIndex"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//TableColumn">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//TableColumn/group"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//TableColumn/editor"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//TableColumn/parent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//TableColumn/alignment"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//TableColumn/moveable"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//TableColumn/resizable"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//TableColumn/toolTipText"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//TableColumn/width"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//TableEditor">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//TableEditor/group1"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//TableEditor/item"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//TableEditor/column"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//TableEditor/dynamic"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//TableItem">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//TableItem/group"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//TableItem/cells"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//TableItem/parent"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//TableItem/editors"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//TableItem/texts"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//TableItem/checked"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//TableItem/grayed"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//TableItem/imageIndent"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//TableTree"/>
+    <genClasses ecoreClass="xwt09.ecore#//TableTreeViewer">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//TableTreeViewer/group5"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//TableTreeViewer/tableTree"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//TableViewer">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//TableViewer/group4"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//TableViewer/table"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//TableViewerColumn">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//TableViewerColumn/group"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//TableViewerColumn/column"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//TableViewerColumn/text"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//TableViewerColumn/width"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//Text">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Text/caretLocation"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Text/doubleClickEnabled"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Text/echoChar"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Text/editable"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Text/lineDelimiter"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Text/message"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Text/orientation"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Text/selection"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Text/selectionText"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Text/tabs"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Text/text"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Text/textLimit"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Text/topIndex"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//TextCellEditor"/>
+    <genClasses ecoreClass="xwt09.ecore#//TextStyle">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EAttribute xwt09.ecore#//TextStyle/mixed"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//TitleAreaDialog">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//TitleAreaDialog/group3"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//TitleAreaDialog/titleAreaColor"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//TitleAreaDialog/errorMessage"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//TitleAreaDialog/message"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//TitleAreaDialog/title"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//TitleAreaDialog/titleImage"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//ToolBar">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//ToolBar/group3"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//ToolBar/items"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//ToolItem">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//ToolItem/group"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//ToolItem/control"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//ToolItem/parent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//ToolItem/bounds"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//ToolItem/disabledImage"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//ToolItem/enabled"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//ToolItem/hotImage"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//ToolItem/selection"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//ToolItem/toolTipText"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//ToolItem/width"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//ToolTip">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//ToolTip/group"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//ToolTip/parent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//ToolTip/autoHide"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//ToolTip/message"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//ToolTip/text"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//ToolTip/visible"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//Tracker">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Tracker/group"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Tracker/rectangles"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//Tracker/cursor"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Tracker/stippled"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//Tray">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Tray/group"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//Tray/items"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="xwt09.ecore#//TrayDialog">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//TrayDialog/group2"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//TrayDialog/tray"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//TrayDialog/helpAvailable"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//TrayItem"/>
+    <genClasses ecoreClass="xwt09.ecore#//Tree">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Tree/group3"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//Tree/sortColumn"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//Tree/parentItem"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//Tree/columns"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Tree/columnOrder"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//Tree/topItem"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//Tree/items"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//Tree/selection"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Tree/headerVisible"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Tree/itemCount"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Tree/linesVisible"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Tree/sortDirection"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//TreeColumn">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//TreeColumn/group"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//TreeColumn/parent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//TreeColumn/alignment"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//TreeColumn/moveable"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//TreeColumn/resizable"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//TreeColumn/toolTipText"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//TreeColumn/width"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//TreeItem">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//TreeItem/group"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//TreeItem/parentItem"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//TreeItem/texts"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//TreeItem/items"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//TreeItem/parent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//TreeItem/checked"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//TreeItem/expanded"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//TreeItem/grayed"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//TreeItem/handle"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//TreeItem/itemCount"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//TreePath">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EAttribute xwt09.ecore#//TreePath/mixed"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//TreeViewer">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//TreeViewer/group5"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//TreeViewer/tree"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//URL">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EAttribute xwt09.ecore#//URL/mixed"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="xwt09.ecore#//Viewer">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EAttribute xwt09.ecore#//Viewer/mixed"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Viewer/group"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//Viewer/input"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//Viewer/selection"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//Viewer/control"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="xwt09.ecore#//ViewerColumn">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EAttribute xwt09.ecore#//ViewerColumn/mixed"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//ViewerComparator">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EAttribute xwt09.ecore#//ViewerComparator/mixed"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="xwt09.ecore#//ViewerFilter">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EAttribute xwt09.ecore#//ViewerFilter/mixed"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//ViewerSorter"/>
+    <genClasses image="false" ecoreClass="xwt09.ecore#//Widget">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EAttribute xwt09.ecore#//Widget/mixed"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Widget/activateEvent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Widget/armEvent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Widget/closeEvent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Widget/collapseEvent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Widget/dataContext"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Widget/deactivateEvent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Widget/defaultSelectionEvent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Widget/deiconifyEvent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Widget/disposeEvent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Widget/dragDetectEvent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Widget/eraseItemEvent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Widget/expandEvent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Widget/focusInEvent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Widget/focusOutEvent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Widget/hardKeyDownEvent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Widget/hardKeyUpEvent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Widget/helpEvent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Widget/hideEvent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Widget/iconifyEvent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Widget/imeCompositionEvent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Widget/keyDownEvent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Widget/keyUpEvent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Widget/measureItemEvent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Widget/menuDetectEvent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Widget/modifyEvent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Widget/mouseDoubleClickEvent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Widget/mouseDownEvent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Widget/mouseEnterEvent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Widget/mouseExitEvent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Widget/mouseHoverEvent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Widget/mouseMoveEvent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Widget/mouseUpEvent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Widget/mouseWheelEvent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Widget/moveEvent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Widget/paintEvent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Widget/paintItemEvent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Widget/resizeEvent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Widget/selectionEvent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Widget/setDataEvent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Widget/showEvent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Widget/style"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Widget/traverseEvent"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Widget/verifyEvent"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="xwt09.ecore#//Window">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EAttribute xwt09.ecore#//Window/mixed"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Window/group"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//Window/windowManager"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//Window/blockOnOpen"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//WindowManager">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EAttribute xwt09.ecore#//WindowManager/mixed"/>
+    </genClasses>
+    <genClasses ecoreClass="xwt09.ecore#//XMLDataProvider">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//XMLDataProvider/group1"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//XMLDataProvider/document"/>
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference xwt09.ecore#//XMLDataProvider/source"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute xwt09.ecore#//XMLDataProvider/xPath"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>
